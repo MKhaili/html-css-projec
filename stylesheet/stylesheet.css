@@ -1,0 +1,124 @@
+img {
+    width: 222px;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    background-color: cyan;
+    display: inline-block;
+    margin: -2px 1px -3px -6px;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+}
+
+footer {
+    background-image: url(http://tarifaadventure.com/wp-content/uploads/2016/06/spearfishing-tarifa2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 3px -9px;
+    border: 11px solid black;
+}
+
+body {
+    background-color: gray;
+}
+
+.link {
+    width: 50px;
+    height: 30px;
+    border: 2px solid goldenrod;
+    border-radius: 24%;
+}
+.pictures {
+    background-image: url(http://tarifaadventure.com/wp-content/uploads/2016/06/spearfishing-tarifa2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 3px -9px;
+    border: 11px solid black;
+}
+
+.imgHolderA{
+    position: static;
+    margin: 3% 11% 3% 1%;
+}
+.imgHolderA span {
+    position: absolute;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    margin-top: 86px;
+    margin-left: -202px;
+}
+
+.imgHolderB{
+    position: static;
+    margin: 3% -5% 4% 10%;
+    float: right;
+}
+.imgHolderB span {
+    position: absolute;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 11px 24px 10px 24px;
+    margin-top: 109px;
+    margin-left: -185px;
+}
+
+.imgHolderC {
+    position: static;
+    margin: 16% 3% 1% -47%;
+}
+.imgHolderC span {
+    position: absolute;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: -185px;
+}
+
+.imgHolderD{
+    position: static;
+    margin: 16% 5% 9% 18%;
+    float: right;
+}
+.imgHolderD span {
+    position: absolute;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: -185px;
+}
+
+.imgHolderE{
+    position: static;
+    margin: 30% 1% 11% -58%;
+}
+.imgHolderE span {
+    position: absolute;
+    background-color: goldenrod;
+    text-align: center;
+    padding: 10px;
+    margin-top: 110px;
+    margin-left: -185px;
+}
+.navbar {
+    float: right;
+    margin: 13px 10px;
+    
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
